@@ -1,1 +1,2 @@
-# Java_Script_Orientado_A_Objeto
+# JavaScript
+JavaScript orientada a objetos - Primeiros Passos
