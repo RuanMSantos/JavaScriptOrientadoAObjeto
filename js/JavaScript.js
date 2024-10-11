@@ -45,11 +45,19 @@ function AddCarrosArray(){
         "ano":document.getElementById("ano").value,
         "cor":document.getElementById("cor").value
     }
+    // carros.push(carro);
 
-    carros.push(carro);
-    //carros.unshift(carro);
-    
+    // carros.unshift(carro);
+
+    // carros.splice(2, 1, carro);
 
     console.log(carros);
-
+    
+    let find_carro = carros.find(carro => carro.cor == "branca");
+    
+    console.log(find_carro);
+    
+    let filter_carro = carros.filter(carro => carro.Ano >= 2015);
+    
+    console.log(filter_carro);
 }
